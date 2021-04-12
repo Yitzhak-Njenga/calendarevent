@@ -27,7 +27,7 @@
       // US Holidays
       events: {
     googleCalendarId: 'labseagle@gmail.com'
-  },
+    },
 
       eventClick: function(arg) {
         // opens events in a popup window
@@ -47,7 +47,14 @@
   });
 
 
-
+  let calendar = new Calendar(calendarEl, {
+  plugins: [ googleCalendarPlugin ],
+  googleCalendarApiKey: 'AIzaSyCbAVyKABz0EMUk45hd88AgTxuxbN4wv8E',
+  events: {
+    googleCalendarId: 'yitzhaknjenga@gmail.com',
+    event:'en.usa#holiday@group.v.calendar.google.com'
+  }
+});
 
 
 </script>
