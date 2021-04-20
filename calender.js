@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
-
+      
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
@@ -43,5 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
   events: {
     googleCalendarId: 'yitzhaknjenga@gmail.com',
     event:'en.usa#holiday@group.v.calendar.google.com'
+  
+  
   }
 });
+calendarEl.innerHtml = calendar;
