@@ -284,6 +284,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10%;
   }
 .fc .fc-toolbar.fc-header-toolbar {
     margin-bottom: 1.5em;
@@ -292,8 +293,9 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     margin-top: 1.5em;
   }
 .fc .fc-toolbar-title {
-    font-size: 1.75em;
+    font-size: 1.0em;
     margin: 0;
+    color: #2C3E50;
   }
 .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
     margin-left: .75em; /* space between */
